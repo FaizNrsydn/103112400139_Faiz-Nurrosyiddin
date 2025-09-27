@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    string satuan[] = {" ", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
+    string satuan[] = {"Nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
 
     int angka;
     cout << "Masukkan angka (0-99): ";
@@ -27,4 +27,6 @@ int main(){
             cout << " " << satuan[sisa];
         }
     }
+
+    return 0;
 }

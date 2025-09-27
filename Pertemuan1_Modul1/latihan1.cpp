@@ -13,4 +13,6 @@ int main(){
     cout << "Pengurangan angka1 - angka2 = " << angka1 - angka2 << endl;
     cout << "Perkalian angka1 * angka2 = " << angka1 * angka2 << endl;
     cout << "Pembagian angka1 / angka2 = " << angka1 / angka2 << endl;
+
+    return 0;
 }
