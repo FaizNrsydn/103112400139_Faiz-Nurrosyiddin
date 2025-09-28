@@ -5,11 +5,11 @@ int main(){
     string satuan[] = {"Nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
 
     int angka;
-    cout << "Masukkan angka (0-99): ";
+    cout << "Masukkan angka (0-100): ";
     cin >> angka;
 
-    if (angka < 0 || angka > 99){
-        cout << "angka harus 0-99";
+    if (angka < 0 || angka > 100){
+        cout << "angka harus 0-100";
     }else if (angka < 10){
         cout << satuan[angka];
     }else if (angka == 10){
@@ -18,7 +18,7 @@ int main(){
         cout << "sebelas";
     }else if (angka < 20){
         cout << satuan[angka%10] << " belas";
-    }else{
+    }else if (angka < 100){
         int puluh = angka / 10;
         int sisa = angka % 10;
 
@@ -26,6 +26,8 @@ int main(){
         if (sisa != 0){
             cout << " " << satuan[sisa];
         }
+    }else{
+        cout << "seratus";
     }
 
     return 0;
