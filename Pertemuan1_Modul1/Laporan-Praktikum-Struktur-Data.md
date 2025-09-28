@@ -151,7 +151,7 @@ int main(){
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided1-2.png)
+![Screenshot Output Unguided 1_2](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided1-2.png)
 
 ### Penjelasan unguided 1:
 Program diatas merupakan program kalkulator yang sangat sederhana dimana program menerima 2 input-an dari user bertipe data float dan menghasilkan outpu-an berupa penjumlahan, pengurangan, perkalian, dan pembagian dari kedua input-an tersebut. proses perhitungan terjadi pada kode berikut:
@@ -205,11 +205,11 @@ int main(){
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
+![Screenshot Output Unguided 2_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided2-2.png)
+![Screenshot Output Unguided 2_2](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided2-2.png)
 
 ### Penjelasan unguided 2:
 Program diatas merupakan program yang mengubah angka menjadi tulisan dan angka yang diinputkan user harus 0-100.
@@ -306,11 +306,11 @@ int main(){
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
+![Screenshot Output Unguided 3_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided3-2.png)
+![Screenshot Output Unguided 3_2](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan1_Modul1/Output-Unguided3-2.png)
 
 ### Penjelasan unguided 3
 Program diatas merupakan program nested loop (perulangan bersarang) dimana kita akan membuat segitiga terbalik dimana didalamnya terdapat angka yang mengulang.
