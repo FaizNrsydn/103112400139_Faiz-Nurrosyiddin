@@ -10,57 +10,113 @@ Sementara itu, bahasa C++ dikembangkan oleh Bjarne Stroustrup pada awal 1980-an 
 
 Selain itu, sejarah awal lahirnya bahasa C/C++ tidak dapat dilepaskan dari perkembangan sistem operasi UNIX yang dimulai sekitar tahun 1960-an. Pada saat itu, Massachusetts Institute of Technology, Bell Labs, dan General Electric mengembangkan sistem operasi Multics. Namun karena kompleksitasnya, beberapa peneliti Bell Labs seperti Ken Thompson dan Dennis Ritchie kemudian mengembangkan sistem operasi UNIX yang lebih sederhana. Dari sinilah bahasa C kemudian muncul sebagai bahasa pemrograman utama yang mendukung pengembangan UNIX, dan menjadi dasar lahirnya C++ [3].
 
-Dalam konteks penggunaannya, bahasa C++ tidak hanya populer di dunia akademik, tetapi juga banyak diterapkan dalam industri perangkat lunak, seperti pengembangan sistem operasi, aplikasi desktop, perangkat lunak sistem tertanam, hingga game. Keunggulan utama C++ terletak pada kemampuannya dalam mengelola sumber daya sistem secara efisien serta memberikan kontrol tinggi terhadap memori. Hal ini membuat C++ sangat sesuai digunakan untuk pengembangan sistem yang membutuhkan performa tinggi [1].
+### A. Dasar Bahasa Pemrograman C++ <br/>
+C++ adalah bahasa pemrograman tingkat tinggi yang mendukung paradigma prosedural dan berorientasi objek [4].
 
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+#### 1. Struktur Dasar Program C++
+Header: misalnya #include <iostream> untuk input/output.
+Fungsi main(): titik awal eksekusi program.
+Statement: baris perintah di dalam fungsi.
 
-### A. ...<br/>
+#### 2. Variabel dan Tipe Data
+int, float, double, char, string, dll.
+Digunakan untuk menyimpan nilai yang diproses program.
 
-...
-
-#### 1. ...
-
-#### 2. ...
-
-#### 3. ...
-
-### B. ...<br/>
-
-...
-
-#### 1. ...
-
-#### 2. ...
-
-#### 3. ...
+#### 3. Input dan Output
+Input: cin digunakan untuk membaca data dari pengguna.
+Output: cout digunakan untuk menampilkan data ke layar.
 
 ## Guided
 
-### 1. ...
+### 1. Penjumlahan, pengurangan, perkalian, pembagian, modulus.
 
 ```C++
-source code guided 1
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka1, angka2;
+    cout << "masukkan angka1 : ";
+    cin >> angka1;
+    cout << "masukkan angka2 : ";
+    cin >> angka2;
+
+    //penjumlahan
+    cout <<"penjumlahan :" << angka1 + angka2 << endl;
+    //pengurangan 
+    cout <<"pengurangan :" << angka1 - angka2 << endl;
+    //perkalian
+    cout <<"perkalian :" << angka1 * angka2 << endl;
+    //pembagian
+    cout <<"pembagian :" << angka1 / angka2 << endl;
+    //modulus
+    cout <<"modulus :" << angka1 % angka2 << endl;
+    return 0;
+}
 ```
 
-penjelasan singkat guided 1
+### Penjelasan singkat guided 1:
+Program diatas merupakan program kalkulator yang sangat sederhana dimana program menerima 2 input-an dari user bertipe data float dan menghasilkan outpu-an berupa penjumlahan, pengurangan, perkalian, dan pembagian dari kedua input-an tersebut.
 
-### 2. ...
+### 2. Percabangan (if - else if - else)
 
 ```C++
-source code guided 2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka1, angka2;
+    cout << "masukkan angka1 : ";
+    cin >> angka1;
+    cout << "masukkan angka2 : ";
+    cin >> angka2;
+
+    if (angka1 > angka2) {
+        cout << angka1 << "lebih besar dari" << angka2 << endl;
+    }else if (angka1 == angka2) {
+        cout<< angka1 << "sama dengan" << angka2 << endl;
+    }else if (angka1 < angka2) {
+        cout << angka1 << "lebih kecil dari" << angka2 << endl;
+    }
+
+    if (angka1 != angka2) {
+        cout << angka1 << "tidak sama dengan" << angka2 << endl;
+    }
+    return 0;
+}
 ```
 
-penjelasan singkat guided 2
+### Penjelasan singkat guided 2:
+Membandingkan 2 angka menggukan percabangan if, kondisi pertama jika angka1 lebih besar dari angka2 maka cetak "lebih besar dari", jika angka1 == angka2 cetak "sama dengan", jika angka1 kurang dari angka2 cetak "lebih kecil dari", dan jika angka1 tidak sama dengan angka2 cetak "tidak sama dengan"
 
 ### 3. ...
 
 ```C++
-source code guided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 0;
+    int j = 10;
+
+    //perulangan while
+    while (i < 10) {
+        cout << i << "-";
+        i++; //increment
+    }
+
+    //perulangan do-while
+    do {
+        cout << j << "-";
+        j++; //increment
+    }while(j < 11);
+    
+    return 0;
+}
 ```
 
-penjelasan singkat guided 3
+### Penjelasan singkat guided 3
+program diatas merupakan perulangan menggunakan while dan do-while, perbedaannya pada do while program akan mencetak terlebih dahulu output yang akan dicetak lalu mengecek kondisinya apabila kondisi memenuhi maka program akan mengulang output tersebut.
 
 ## Unguided
 
@@ -288,12 +344,15 @@ perulangan terakhir yaitu setelah bintang ada angka yang dicetak dari 1 sampai n
     cout << endl;
 ```
 kode tersebut untuk membuat baris baru setelah semua perulangan didalamnya selesai dijalankan.
-## Kesimpulan
 
-...
+## Kesimpulan
+Bahasa pemrograman C dan C++ merupakan fondasi penting dalam dunia akademik maupun industri karena memiliki performa tinggi, fleksibilitas, serta kontrol penuh terhadap sistem. C yang dikembangkan di Bell Labs pada awal 1970-an menjadi dasar lahirnya sistem operasi UNIX dan kemudian distandardisasi menjadi ANSI C yang banyak digunakan pada pengembangan sistem maupun perangkat embedded [2]. Perkembangan selanjutnya melahirkan C++ pada awal 1980-an oleh Bjarne Stroustrup, dengan membawa paradigma pemrograman berorientasi objek tanpa menghilangkan efisiensi bahasa C melalui fitur-fitur seperti class, inheritance, encapsulation, polymorphism, serta overloading [1][2].
+
+C++ kemudian berkembang menjadi bahasa pemrograman tingkat tinggi yang mendukung paradigma prosedural maupun OOP, dengan struktur program sederhana, dukungan tipe data beragam, serta mekanisme input-output yang mudah digunakan [4]. Berkat kemampuannya dalam mengelola sumber daya sistem secara efisien dan memberikan kontrol tinggi terhadap memori, C++ banyak diterapkan dalam berbagai bidang seperti pengembangan sistem operasi, aplikasi desktop, sistem tertanam, hingga game, menjadikannya bahasa yang relevan untuk kebutuhan jangka panjang [1][3].
 
 ## Referensi
 
 [1] Al Fatta, H. (2006). Dasar Pemrograman C++ Disertai dengan Pengenalan Pemrograman Berorientasi Objek. Penerbit Andi. Diakses pada 27 September 2025 melalui https://books.google.co.id/books?hl=id&lr=&id=H20EMvS2EmQC&oi=fnd&pg=PA1&dq=pengenalan+c%2B%2B&ots=tY4pt6w9M6&sig=9ZBtgg8RaXBNnK4agosxsFrk4O0&redir_esc=y#v=onepage&q=pengenalan%20c%2B%2B&f=false
 <br>[2] Huda, A., Ardi, N., & Muabi, A. (2021). Pengantar coding berbasis C/C++. UNP PRESS. Diakses pada 27 September 2025 melalui https://books.google.co.id/books?hl=id&lr=&id=G9dbEAAAQBAJ&oi=fnd&pg=PA129&dq=pengenalan+c%2B%2B&ots=6eHR6Mcsae&sig=vbXmnbHDS9giglrNppsPkTw4XMQ&redir_esc=y#v=onepage&q=pengenalan%20c%2B%2B&f=false
 <br>[3] Trianiza, I., Khirdany, E. N., Wahyudi, E., Vandika, A. Y., & Sofyan, S. (2025). Pengenalan Pemrograman Dasar Dunia Koding dengan C++. YPAD Penerbit. Diakses pada 27 September 2025 melalui https://journal.yayasanpad.org/index.php/ypadbook/article/view/434/319
+<br>[4] Nabila Chairunnisa,S.Kom (2024). "Langkah mudah belajar pemrograman C++". Penerbit ANAK HEBAT INDONESIA
