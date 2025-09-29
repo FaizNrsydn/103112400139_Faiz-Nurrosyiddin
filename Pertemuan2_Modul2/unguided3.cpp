@@ -23,23 +23,48 @@ int cariMaximum(int arr[], int ukuran){
 
 void hitungRataRata(int arr[], int ukuran){
     int total;
-    int hasil;
-
     for (int i = 0;i < ukuran;i++){
         total += arr[i];
     }
-
-    hasil = total / ukuran;
-    cout << "Rata-rata: " << hasil << endl; 
+    cout << "Rata-rata: " << total << "/" << ukuran << " = " << total/ukuran << endl; 
 }
 
 int main(){
     const int ukuran = 10;
     int arrA[ukuran] = {11, 8, 5, 7, 12, 26, 3, 54, 33, 55};
+    int pilihan;
 
+    cout << "-- Menu Program Array --" << endl;
+    cout << "1. Tampilkan Isi Array" << endl;
+    cout << "2. Cari Nilai Maksimum" << endl;
+    cout << "3. Cari Nilai Minimum" << endl;
+    cout << "4. Hitung Nilai Rata-rata" << endl;
+
+    cout << "Pilih (1-4): ";
+    cin >> pilihan;
     cout << endl;
-    cout << "Nilai terbesar dalam array: " << cariMaximum(arrA,ukuran) << endl;
-    cout << "Nilai terkecil dalam array: " << cariMinimum(arrA,ukuran) << endl;
-    hitungRataRata(arrA, ukuran);
+
+    switch (pilihan)
+    {
+    case 1:
+        cout << "Isi dari Array: ";
+        for (int i = 0; i < ukuran; i++){
+            cout << arrA[i] << " ";
+        }
+        cout << endl;
+        break;
+    case 2:
+        cout << "Nilai terbesar dalam array: " << cariMaximum(arrA,ukuran) << endl;
+        break;
+    case 3:
+        cout << "Nilai terkecil dalam array: " << cariMinimum(arrA,ukuran) << endl;
+        break;
+    case 4:
+        hitungRataRata(arrA, ukuran);
+        break;
+    default:
+        cout << "Input salah!!!" << endl;
+        break;
+    }
     return 0;
 }
