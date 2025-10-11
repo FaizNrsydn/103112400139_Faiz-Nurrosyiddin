@@ -364,13 +364,13 @@ int main(){
 }
 ```
 
-### Output Unguided 2 (pointer) :
+### Output Unguided 2:
 
-##### Output 1 (pointer)
+##### Output 1
 
 ![Screenshot Output Unguided 2](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan3_Modul3/Output-Unguided2.png)
 
-### Penjelasan unguided 2 (pointer & reference):
+### Penjelasan unguided 2:
 Program diatas kurang lebih sama dengan program guided ADT dimana berfungsi untuk menyimpan data pada struct di file pelajaran.h dan membuat function untuk memasukan datanya dan menampilkannya di file pelajaran.cpp dan mengeksekusi programnya di main.cpp.
 
 ### 3.  Buatlah program dengan ketentuan :
