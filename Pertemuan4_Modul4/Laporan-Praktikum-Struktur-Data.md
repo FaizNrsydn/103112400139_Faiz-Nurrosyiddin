@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 4 - Single Linked List</h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - Single Linked List (Bagian Pertama)</h1>
 
 <p align="center">Faiz Nurrosyiddin - 103112400139</p>
 
