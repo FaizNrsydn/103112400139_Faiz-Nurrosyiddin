@@ -646,7 +646,7 @@ int main(){
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan5_Modul5/Output-Unguided1.png)
+![Screenshot Output Unguided 1_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan5_Modul5/Output-Unguided-1.png)
 
 ### Penjelasan unguided 1:
 Program diatas merupakan linked list dengan isi data berupa angka, pada program main data sudah dimasukkan menggunakan fungsi insertFirst(), lalu menambahkan fungsi baru yaitu fungsi findElm() dimana berfungsi untuk mencari elemen.
@@ -1012,7 +1012,7 @@ int main(){
 
 ##### Output 1
 
-![Screenshot Output Unguided 2](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan5_Modul5/Output-Unguided2.png)
+![Screenshot Output Unguided 2](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan5_Modul5/Output-Unguided-2.png)
 
 ### Penjelasan unguided 2:
 Program diatas merupakan linked list yang berisi data angka integer lalu program diatas bertujuan untuk mengupdate, mencari, menjumlahkan, mengurangkan dan mengalikan isi dari list tersebut.
