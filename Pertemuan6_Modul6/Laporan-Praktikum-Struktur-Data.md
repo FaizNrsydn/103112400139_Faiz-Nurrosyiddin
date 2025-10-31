@@ -17,7 +17,7 @@ Double Linked List (DLL) atau Daftar Berantai Ganda adalah struktur data linier 
   + Penunjuk previous dari simpul pertama (Head) adalah NULL.
   + Penunjuk next dari simpul terakhir (Tail) adalah NULL.
 2. Representasi StrukturSecara konseptual, struktur satu simpul (node) dapat diwakili sebagai berikut:
-Node = [Previous Pointer, Data, Next Pointer]
+<br>Node = [Previous Pointer, Data, Next Pointer]
 
 ## Guided
 
@@ -1127,7 +1127,7 @@ int main(){
 ![Screenshot Output Unguided 1_3](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan6_Modul6/Output-Unguided1-3.png)
 
 ### Penjelasan unguided 1:
-Program diatas merupakan program double linked list dan berisi data kendaraan nomor polisi, warna kendaraan dan tahun kendaraan. 1. Membuat file header .h dan implementasi fungsi di cpp juga hasilnya di main.cpp
+Program diatas merupakan program double linked list dan berisi data kendaraan nomor polisi, warna kendaraan dan tahun kendaraan. <br> 1. Membuat file header .h dan implementasi fungsi di cpp juga hasilnya di main.cpp
 pada main.cpp, input data kedaraan didapat dari input user dimana pertama kali program dijalankan user akan memeasukkan jumlah data yang mau di input:
 ```C++
     cout << "Masukkan Jumlah data yang ingin di tambahkan: ";
