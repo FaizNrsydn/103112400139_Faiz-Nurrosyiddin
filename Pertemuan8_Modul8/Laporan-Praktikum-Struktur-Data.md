@@ -8,8 +8,8 @@ Queue atau antrian adalah salah satu struktur data linier yang beroperasi dengan
 Queue memiliki dua operasi utama, yaitu enqueue (penambahan elemen) dan dequeue (penghapusan elemen). Pada operasi enqueue, elemen ditambahkan ke belakang antrian, sementara pada operasi dequeue, elemen dikeluarkan dari bagian depan antrian. Struktur data ini juga dapat dikembangkan dalam varian yang lebih kompleks seperti double-ended queue (deque), di mana elemen bisa ditambahkan dan dihapus dari kedua ujung. Dalam implementasi antrian pada sistem komputer, konsep queue sering digunakan dalam penjadwalan proses, algoritma buffering, dan pengelolaan memori, sehingga mempermudah pengelolaan data secara efisien.
 
 Terdapat 2 cara membuat queue yaitu:
-- Menggunakan List/Pointer
-<br> - Menggunakan Array
+- Menggunakan List/Pointer<br> 
+- Menggunakan Array
 
 ## Guided
 
