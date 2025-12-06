@@ -1154,9 +1154,9 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan10_Modul10/Output-Unguided1-1.png)
-![Screenshot Output Unguided 1_2](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan10_Modul10/Output-Unguided1-2.png)
-![Screenshot Output Unguided 1_3](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan10_Modul10/Output-Unguided1-3.png)
+![Screenshot Output Unguided 1_1](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan11_Modul13/Output-Unguided1-1.png)
+![Screenshot Output Unguided 1_2](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan11_Modul13/Output-Unguided1-2.png)
+![Screenshot Output Unguided 1_3](https://github.com/FaizNrsydn/103112400139_Faiz-Nurrosyiddin/blob/main/Pertemuan11_Modul13/Output-Unguided1-3.png)
 
 ### Penjelasan unguided 1:
 #### Nomor 1
